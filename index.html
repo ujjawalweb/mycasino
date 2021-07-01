@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+<link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+
+<style>
+   .modal-content{background-image:url(images/ujj.jpg)!important;
+      background-size:cover !important;
+      z-index:9999 !important;padding: 35px 0px !important; width: 300px;}
+      .golden-btn:focus{border:none !important;outline:none !important;}
+      .promo{position: relative!important;
+    top: 12px!important;
+    left: 15px!important;
+}
+#ch2{    position: relative;
+  top: 1px;
+  left: -25px;}
+      .nav-tabs {
+    margin-left: 102px;border: none;}
+
+
+    @media only screen and (max-width:768px) {
+
+    #ch2 {
+    position: relative;
+    top: 1px;
+    left: 2px;}
+
+  .rem { position: relative!important;
+    top: 20px!important;}
+
+    .chh{    position: relative !important;
+    top: -24px !important;
+    left: 20px !important;
+}
+
+
+    }
+  
+</style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top mt-4" id="mynav">
+    <div class="container">
+    <a class="navbar-brand" href="#"><img src="images/logos.png" width="60" height="60"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+	  <span class="main">
+        <li class="nav-item">
+          <a class="nav-link" style="color:#ffb504!important;font-weight:600;" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tournaments</a>
+        </li>
+   
+        <li class="nav-item">
+          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Promotions</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Blogs</a>
+        </li>
+		</span>
+
+   <li class="nav-item left">
+    <select class="selectpicker" data-width="fit">
+      <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+    <option  data-content='<span class="flag-icon flag-icon-mx"></span> Hindi'>Hindi</option>
+  </select>
+        </li>
+
+
+      </ul>
+
+      <div class="my-social">
+        <i class="fa fa-facebook"></i>&nbsp;
+        <i class="fa fa-instagram"></i>&nbsp;
+
+        <i class="fa fa-twitter"></i>&nbsp;
+      </div>
+   
+        <button  class="golden-btn lefts"  data-toggle="modal" data-target=".log-sign" style="font-size:1.3em;">Login</button>&nbsp; &nbsp;
+		    <button class="golden-btn  sign"  data-toggle="modal" data-target=".log-sign" style="font-size:1.3em;">Signup</button>
+   
+    </div>
+    </div>
+  </nav>
+  
+
+  
+  <div class="jumbotron pt-6">
+    <div class="container">
+    <h3 class="display-4 text-white">Lorem Ipsum Dolar <br>Sit Lorem Ipsum  </h3>
+    <p class="lead">t is a long established fact that a reader will be distracted by the readable content of <br>a page when looking at its layout. The point of using Lorem Ipsum is that it has a <br>more-or-less normal distributio</p>
+
+	   <hr class="new1">
+<div class="bttn">
+    <button class="golden-btn" style="font-size:1.3em;">Lorem Ipsum</button>
+	
+	<img src="images/22.png" width="80">
+	<br><br>
+
+    <img src="images/and.png" width="100">&nbsp;
+    <img src="images/app.png" width="100">
+</div>
+    </div>
+  </div>
+  
+
+ <!--content-->
+
+ <div class="container-fluid bgm">
+<div class="container">
+<div class="row">
+
+  <div class="col-md-12 mtop text-center text-white"><h2>007 Casino.made for you</h2>
+
+    <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    
+    <img src="images/07.png">
+    
+    </div>
+    </div><div>
+<div class="row justify-content-center pad">
+
+    <div class="col-md-6 mt-5 tops">
+      <div class="cards"><img src="images/icon1.png" width="140" class="cicon"><span class="text-white tit">Easy to Earn</span>
+      <p class="text-white pady text-center p-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+      
+      </div>
+    </div>
+    <div class="col-md-6 mt-5">
+      <div class="cards"><img src="images/icon2.png" width="140" class="cicon"><span class="text-white tit">Global Player</span>
+        <p class="text-white pady text-center p-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+    </div>
+    <div class="col-md-6 mt-3">
+      <div class="cards"><img src="images/icon3.png" width="140" class="cicon"><span class="text-white tit">Private Game</span>
+        <p class="text-white pady text-center p-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+    </div>
+    <div class="col-md-6 mt-3">
+      <div class="cards"><img src="images/icon4.png" width="140" class="cicon"><span class="text-white tit fund">Funds Protected</span>
+        <p class="text-white pady text-center p-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+    </div>
+
+</div>
+
+</div>
+
+ </div>
+ </div>
+
+
+
+
+ <!--trending promotion-->
+
+  <div class="container-fluid bgs">
+  <div class="container">
+  <div class="row">
+  
+    <div class="col-md-12 mtop text-center text-white"><h2>Trending Promotions</h2>
+  
+      <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+	      <img src="images/07.png">
+      </div>
+
+<section id="slider">
+  <input type="radio" name="slider" id="s1">
+  <input type="radio" name="slider" id="s2">
+  <input type="radio" name="slider" id="s3" checked>
+  <input type="radio" name="slider" id="s4">
+  <input type="radio" name="slider" id="s5">
+  <label for="s1" id="slide1"></label>
+  <label for="s2" id="slide2"></label>
+  <label for="s3" id="slide3"></label>
+  <label for="s4" id="slide4"></label>
+  <label for="s5" id="slide5"></label>
+</section>
+     
+    
+
+
+
+  </div>
+  </div>
+      
+      </div>
+
+
+  <div class="container-fluid bgs-1">
+  <div class="container">
+
+      <div class="row my">
+          
+        <div class="col-md-12 mtop text-center text-white"><h2>007 Casino News</h2>
+      
+          <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+		      <img src="images/07.png">
+          </div>
+          
+          <div class="col-md-6 mt-5 my-top text-white casino"><h4>007 casino affilate Programme</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it</p>
+          <button class="golden-btn read" style="font-size:1.3em;">Read More</button>
+          
+          </div>
+          <div class="col-md-6 mt-5 my-top "><img src="images/new.png" class="cas"  width="400"></div>
+          
+
+
+
+          <div class="col-md-6 mt-5"><img src="images/new2.png"  class="cas2"   width="400"></div>
+
+          <div class="col-md-6 mt-5 text-white"><h4>Download 007 casino</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it</p>
+        <div class="apple">
+            <img src="images/and.png" width="100">
+            <img src="images/app.png" width="100">
+			</div>
+			
+            </div>
+
+
+      </div><div>
+      </div>
+   </div>
+         </div>
+
+  <!---footer-->
+
+
+
+<div class="container-fluid bg-my p-4">
+  <div class="container">
+    <div class="row cloud">
+      <div class="col-md-12 text-white text-center">
+        <p class="foot-para" style="margin-top:30px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+      </div>
+
+<div class="col-md-6 mt-4">
+  <div class="social">
+  <i class="fa fa-facebook"></i>
+  <i class="fa fa-instagram"></i>
+  <i class="fa fa-twitter"></i>
+</div>
+<hr class="new2 container">
+</div>
+	   
+<div class="col-md-6 mt-4"><ul class="fle" style="display: flex;list-style-type: none;white-space: nowrap;">
+<li><a href="">About us</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<li><a href="">Deposit and Withdrawl Policy</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<li><a href="">Privacy Policy</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<li><a href="">Game Intigrity</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+</ul>
+<ul class="fle2">
+<li><a href="">Terms of Use</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<li><a href="">Responsible Gambling</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<li><a href="">Cookie Notice</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</ul>
+
+</div>
+<hr />
+
+<div class="col-md-6 mt-5"><p class="text-white copy">Copyright &copy  2021 007 casino. All Rights Reserved</p></div>
+<div class="col-md-6 mt-5"><span class="iconss"> <img src="images/29.png" width="70">&nbsp;&nbsp;
+
+
+  <img src="images/30.png" width="70">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="images/31.png" width="70">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="images/32.png" width="50">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="images/33.png" width="50">&nbsp;&nbsp;&nbsp;&nbsp;
+</span>
+</div>
+
+    </div>
+  </div>
+</div>
+
+
+
+!-- Button trigger modal -->
+
+<!-- Modal -->
+<!-- Modal -->
+<div class="modal fade bs-modal-sm log-sign" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+        
+        <div class="bs-example bs-example-tabs">
+            <ul id="myTab" class="nav nav-tabs">
+              <li id="tab1" class=" active tab-style login-shadow "><a href="#signin" data-toggle="tab">Log In</a></li>&nbsp;&nbsp;&nbsp;
+              <li id="tab2" class=" tab-style "><a href="#signup" data-toggle="tab">Sign Up</a></li>
+              
+            </ul>
+        </div>
+      <div class="modal-body">
+        <div id="myTabContent" class="tab-content">
+       
+        <div class="tab-pane fade active in" id="signin">
+            <form class="form-horizontal">
+            <fieldset>
+            <!-- Sign In Form -->
+            <!-- Text input-->
+         <h5 class="text-white text-center my-log"> LOGIN AND PLAY</h5>
+               <div class="group">
+                <label class="label" for="date">Username</label>
+<input required="" class="input" type="text"><span class="highlight"></span><span class="bar"></span>
+   </div>
+              
+              
+            <!-- Password input-->
+            <div class="group">
+              <label class="label" for="date">Password</label>
+<input required="" class="input" type="password"><span class="highlight"></span><span class="bar"></span>
+  
+    </div>
+
+
+<input type="checkbox" class=" mt-4" value="lsRememberMe" id="rememberMe"> <label for="rememberMe" class="rem"  style="color:#fff;position: relative;top:0px;">&nbsp;Remember me</label>
+            
+
+            <!-- Button -->
+            <div class="control-group">
+              <label class="control-label" for="signin"></label>
+              <div class="controls">
+                <button id="signin" name="signin" class="btn btn-primary btn-block">Log In</button>
+              </div>
+            </div>
+            </fieldset>
+            </form>
+        </div>
+          
+          
+        <div class="tab-pane fade" id="signup">
+            <form class="form-horizontal">
+            <fieldset>
+            <!-- Sign Up Form -->
+            <!-- Text input-->
+            <h5 class="text-white text-center my-sign">  SIGNUP AND START WINNING</h5>
+            <div class="group">
+              <label class="label" for="date">Username</label></div>
+<input required="" class="input" type="text"><span class="highlight"></span><span class="bar"></span>
+    
+            
+            <!-- Text input-->
+            <div class="group">
+              <label class="label" for="date">Password</label></div>
+<input required="" class="input" type="password"><span class="highlight"></span><span class="bar"></span>
+
+            
+            <!-- Password input-->
+            <div class="group">
+              <label class="label" for="date">Confirm Password</label></div>
+<input required="" class="input" type="text"><span class="highlight"></span><span class="bar"></span>
+   
+
+
+            
+
+  
+
+
+            <!-- Text input-->
+            <div class="group">
+              <label class="label" for="date">Email</label></div>
+<input required="" class="input" type="email"><span class="highlight"></span><span class="bar"></span>
+    
+              
+    
+    <input class="form-check-input" type="checkbox" id="myCheck"  style=" margin-left: -234px!important;
+    margin-top: 47px !important;" onclick="myFunction()">
+			<label class="form-check-label  promo"  disabled for="gridCheck1">  
+				&nbsp;  Have a Promo Code?
+			</label>
+      <label for="inputCity"></label>
+			<input type="text" class="form-control mt-3" id="text" placeholder="Enter your Promocode" style="display:none;
+      width: 211px;
+  ">
+
+
+    <li class="checkbox mt-5">
+      <input type="checkbox" name="ch2" id="ch2" value="2">
+      <label for="ch2" class="text-white chh">Checkbox with long text Officia nisi </label>
+    </li>
+            
+            
+            <!-- Button -->
+            <div class="control-group">
+              <label class="control-label" for="confirmsignup"></label>
+              <div class="controls">
+                <button id="confirmsignup" name="confirmsignup" class="btn btn-primary btn-block">Sign Up</button>
+              </div>
+            </div>
+            </fieldset>
+            </form>
+      </div>
+    </div>
+      </div>
+      <!--<div class="modal-footer">
+      <center>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </center>
+      </div>-->
+    </div>
+  </div>
+</div>
+  
+   
+
+<!--modal2-->
+
+<div class="modal fade bs-modal-sm" id="forgot-password" tabindex="0" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm" >
+    <div class="modal-content">
+        <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Password will be sent to your email</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal">
+        <fieldset>
+        <div class="group">
+<input required="" class="input" type="text"><span class="highlight"></span><span class="bar"></span>
+    <label class="label" for="date">Email address</label></div>
+        
+        
+        <div class="control-group">
+              <label class="control-label" for="forpassword"></label>
+              <div class="controls">
+                <button id="forpasswodr" name="forpassword" class="btn btn-primary btn-block">Send</button>
+              </div>
+            </div>
+          </fieldset>
+            </form>
+          
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+
+
+
+
+
+      <!-- jQuery library -->
+
+      <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+      <script src="bootstrap/js/jquery-3.4.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+
+<script>
+
+$(function(){
+    $('.selectpicker').selectpicker();
+});
+</script>
+
+  
+<script>
+  $(window, document, undefined).ready(function() {
+  
+    $('.input').blur(function() {
+      var $this = $(this);
+      if ($this.val())
+        $this.addClass('used');
+      else
+        $this.removeClass('used');
+    });
+    
+    });
+  
+  
+  $('#tab1').on('click' , function(){
+      $('#tab1').addClass('login-shadow');
+     $('#tab2').removeClass('signup-shadow');
+  });
+  
+  $('#tab2').on('click' , function(){
+      $('#tab2').addClass('signup-shadow');
+     $('#tab1').removeClass('login-shadow');
+  
+  
+  });
+  </script>
+  
+
+
+<script>
+  $(document).ready(function() {
+// Swiper: Slider
+    new Swiper('.swiper-container', {
+        loop: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 3,
+        paginationClickable: true,
+        spaceBetween: 20,
+        breakpoints: {
+            1920: {
+                slidesPerView: 3,
+                spaceBetween: 30
+            },
+            1028: {
+                slidesPerView: 2,
+                spaceBetween: 30
+            },
+            480: {
+                slidesPerView: 1,
+                spaceBetween: 10
+            }
+        }
+    });
+});
+
+</script>
+<script>
+  $(document).ready(function() {
+          // Transition effect for navbar 
+          $(window).scroll(function() {
+            // checks if window is scrolled more than 500px, adds/removes solid class
+            if($(this).scrollTop() > 100) { 
+                $('.navbar').addClass('solid');
+            } else {
+                $('.navbar').removeClass('solid');
+            }
+          });
+  });
+  </script>
+<script>
+  $(window, document, undefined).ready(function() {
+
+$('.input').blur(function() {
+  var $this = $(this);
+  if ($this.val())
+    $this.addClass('used');
+  else
+    $this.removeClass('used');
+});
+
+});
+
+
+$('#tab1').on('click' , function(){
+  $('#tab1').addClass('login-shadow');
+ $('#tab2').removeClass('signup-shadow');
+});
+
+$('#tab2').on('click' , function(){
+  $('#tab2').addClass('signup-shadow');
+ $('#tab1').removeClass('login-shadow');
+
+
+});
+</script>
+
+</body>
+</html>
